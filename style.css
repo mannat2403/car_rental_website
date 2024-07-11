@@ -89,6 +89,10 @@ header {
 .header-btn .sign-in:hover {
     background: var(--main-color);
 }
+.header-btn .sign-up:hover::after {
+        width: 100%; 
+        background: var(--gradient);
+}
 .home {
     width: 100%;
     min-height: 100vh;
